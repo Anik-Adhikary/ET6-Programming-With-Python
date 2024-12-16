@@ -8,3 +8,15 @@ class TestMystery1(unittest.TestCase):
     def test_minimal_input(self):
         """"""
         self.assertEqual(mystery_1(0, 0), 0)
+
+    def test_minimal_input(self):
+        """"""
+        self.assertEqual(mystery_1(5, 5), 10)
+
+    def test_minimal_input(self):
+        """"""
+        self.assertEqual(mystery_1(-5, 5), 0)
+
+    def test_minimal_input(self):
+        """"""
+        self.assertEqual(mystery_1(-5, -5), -10)
