@@ -11,7 +11,7 @@ def is_item_in_only_one_list(item: str, list1: list, list2: list) -> bool:
     Parameters:
     - item (str): The item to check.
     - list1 (list): The first list of strings.
-    -list2 (list): The second list of strings.
+    - list2 (list): The second list of strings.
 
     Returns:
     True if the item is in only one of the lists, False otherwise.
